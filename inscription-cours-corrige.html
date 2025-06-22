@@ -122,6 +122,7 @@
 
   <script>
     document.getElementById('cours-inscription-form').addEventListener('submit', function(e) {
+        e.preventDefault();
       const btn = document.getElementById('submitBtn');
       const msg = document.getElementById('successMessage');
       btn.disabled = true;
